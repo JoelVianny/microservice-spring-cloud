@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-discount" />
+        <module name="eureka-user" />
+        <module name="microservice-internet-shop" />
+        <module name="eureka-organization" />
+        <module name="eureka-characteristic" />
+        <module name="api-gateway" />
+        <module name="eureka-notification" />
+        <module name="eureka-client-product" />
+        <module name="eureka-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="eureka-characteristic" options="-parameters" />
+      <module name="eureka-client-product" options="-parameters" />
+      <module name="eureka-discount" options="-parameters" />
+      <module name="eureka-notification" options="-parameters" />
+      <module name="eureka-organization" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-user" options="-parameters" />
+    </option>
+  </component>
+</project>
